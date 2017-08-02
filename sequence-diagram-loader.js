@@ -16,7 +16,7 @@ sequence.onload = function() {
 	var div = document.createElement("div")
 	div.id = "diagram";
 	document.body.appendChild(div);
-	Diagram.parse(code.innerText).drawSVG("diagram", {theme: 'hand'});
+	Diagram.parse(code.innerText).drawSVG("diagram", {});
 }
 document.body.appendChild(font);
 document.body.appendChild(raphael);
